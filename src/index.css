@@ -11,6 +11,7 @@ body {
 h1 {
     text-align: center;
     color: #e63946;
+    font-size: 3rem;
 }
 
 .container {
@@ -30,12 +31,13 @@ h1 {
 .square {
     width: 5rem;
     height: 5rem;
-    border-radius: 2.5px;
+    border-radius: 5px;
     background-color: #1d3557;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 2rem;
 }
 
 .turns {
@@ -46,11 +48,9 @@ h1 {
 .turn-square {
     background-color: #a8dadc;
     color: #000;
-    width: 2.5rem;
-    height: 2.5rem;
 }
 
-#selected {
+.selected {
     background-color: #457b9d;
 }
 

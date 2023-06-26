@@ -1,7 +1,12 @@
-export const Square = ({index}) => {
+export const Square = ({ children, index, updateBoard }) => {
+    
+    const handleTurn = () => {
+        updateBoard(index)
+    }
+
     return (
-        <div className="square">
-            
+        <div onClick={ handleTurn } className="square">
+            { children }
         </div>
     )
 }
