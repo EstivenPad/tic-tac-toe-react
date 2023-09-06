@@ -17,7 +17,7 @@ export const WinnerModal = ({ winner, resetGame }) => {
             ) 
             }
                 
-            <button onClick={ resetGame } className="button">REST GAME</button>
+            <button onClick={ resetGame } className="button">RESET GAME</button>
             
         </div>
     )
